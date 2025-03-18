@@ -10,13 +10,13 @@ print(penultimo)
 
 print(ultimo)
 
-while i <= n:
+while i < n:
     
     suma = penultimo + ultimo
     penultimo = ultimo
     ultimo = suma
     
-    if ultimo < n:
+    if ultimo <= n:
         
         print(ultimo)
         
